@@ -1,0 +1,23 @@
+{
+  "name": "crypto-app",
+  "version": "1.0.0",
+  "description": "App based on Frederik's calc video",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChuikinaMaria/crypto-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChuikinaMaria/crypto-app/issues"
+  },
+  "homepage": "https://github.com/ChuikinaMaria/crypto-app#readme",
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  }
+}
