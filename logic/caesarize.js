@@ -2,6 +2,14 @@ exports.caesarize = (strToCaesarize, shiftNumber) => {
   let checkChar;
   let shiftedChCode;
 
+  while (shiftNumber>26) {
+    shiftNumber = shiftNumber - 26;
+  };
+
+  while (shiftNumber< -26) {
+    shiftNumber = shiftNumber + 26;
+  };
+
   let arrFromStr = strToCaesarize.split(``); // array of symbols
 
   //map changes every element of array and returns array with shifted chars

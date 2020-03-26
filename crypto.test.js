@@ -20,17 +20,12 @@ const crypto = require('./logic/crypto').crypto;
     })
     describe('crypto', () => {
         it('messes everything up completely', () =>{
-            assert.equal(crypto(' AbC 123!# cDe ', 1), ' dEf 123!# BcD ')
+            assert.equal(crypto(' AbC 123!# cDe ', 1), ' dEf 123!# BcD ');
+            assert.equal(crypto("heLLo worLd!", 0), 'worLd! heLLo');
+            assert.equal(crypto("heLLo worLd!", 1), 'xpsMe! ifMMp');
+            assert.equal(crypto('mnOpQr #@&&^F*(#', 26), '#@&&^F*(# mnOpQr');
         })
     })
 
     
 })
-
-// { name: 'first', args: ["aBcD", 3], expected: 'dEfG' },
-//   { name: 'second', args: ["aBcD", -3], expected: 'xYzA' },
-//   { name: 'third', args: ["heLLo worLd!", 0], expected: 'heLLo worLd!' },
-//   { name: 'fourth', args: ["heLLo worLd!", 1], expected: 'ifMMp xpsMe!' },
-//   { name: 'fifth', args: ["", 5], expected: '' },
-//   { name: 'sixth', args: ["mnOpQr", 26], expected: 'mnOpQr' },
-//   { name: 'seventh', args: ["#@&&^F*(#", 7], expected: '#@&&^M*(#' },
