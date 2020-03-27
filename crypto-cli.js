@@ -13,10 +13,10 @@ const OPERATIONS = {
 function usage() {
   console.log();
   console.log("Usage: Type your message and a secret code which is a number");
-  console.log("and type of operation:");
-  console.log(" +  to caesarize your message,");
-  console.log(" *  to reverse it,");
-  console.log(" =  to do both");
+  console.log("and choose type of operation:");
+  console.log(" crypto-app message number +      to caesarize your message,");
+  console.log(" crypto-app message number *      to reverse it,");
+  console.log(" crypto-app message number =      to do both");
   console.log();
   console.log("Hello! It is a message! 5 =");
   console.log();

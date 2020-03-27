@@ -4,8 +4,7 @@
   "description": "App based on Frederik's calc video",
   "main": "index.js",
   "scripts": {
-    "test": "mocha *.test.js",
-    "crypto-app": "./crypto-cli.js"
+    "test": "mocha *.test.js"
   },
   "bin": {
     "crypto-app": "./crypto-cli.js"
