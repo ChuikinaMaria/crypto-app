@@ -3,7 +3,7 @@ This app encrypts user's message. It can do it by switching charachters with num
 
 to use this app you have to run 'crypto-app' in your console
 
-To caesarize your message type            crypto-app 'message' 'number' '+'
-To reverse wors order in message type     crypto-app 'message' 'number' '*'
-To do both type                           crypto-app 'message' 'number' '='
+ - To caesarize your message type            crypto-app 'message' 'number' '+'
+ - To reverse wors order in message type     crypto-app 'message' 'number' '*'
+ - To do both type                           crypto-app 'message' 'number' '='
 
