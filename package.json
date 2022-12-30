@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ChuikinaMaria/crypto-app#readme",
   "devDependencies": {
-    "mocha": "^7.0.0"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "mysql": "^2.18.1"
